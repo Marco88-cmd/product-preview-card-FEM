@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col min-h-screen items-center justify-center bg-[hsl(30,38%,92%)] text-sm"
+  >
+    <div
+      class="flex flex-col overflow-hidden items-center max-w-86 rounded-lg bg-white md:flex-row md:max-w-[600px] md:h-[450px]"
+    >
+      <img
+        src="/image-product-desktop.jpg"
+        alt="Gabrelle Essence Eau De Parfum Preview Image"
+        class="hidden max-w-[18rem] h-[100%] md:block"
+      />
+      <img
+        src="/image-product-mobile.jpg"
+        alt="Gabrelle Essence Eau De Parfum Preview Image"
+        class="max-w-[100%] md:hidden"
+      />
+
+      <main class="p-9">
+        <span
+          class="uppercase tracking-[0.3rem] font-montserrat text-xs text-[hsl(228,12%,48%)]"
+          >Perfume</span
+        >
+        <h1
+          class="text-3xl font-extrabold font-fraunces my-6 leading-8 text-[hsl(212,21%,14%)]"
+        >
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="text-[hsl(228,12%,48%)]">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex items-center my-6 gap-4">
+          <span
+            class="font-fraunces text-3xl font-bold leading-8 text-[hsl(158,36%,37%)]"
+            >$149.99</span
+          >
+          <span class="line-through text-[hsl(228,12%,48%)]">$169.99</span>
+        </div>
+        <div class="justify-center flex">
+          <button
+            class="flex bg-[hsl(158,36%,37%)] min-w-[100%] text-center justify-center items-center gap-4 p-4 rounded-md text-white font-bold font-montserrat hover:bg-[hsl(158,42%,18%)] hover:cursor-pointer transition-colors duration-300"
+          >
+            <img
+              src="/icon-cart.svg"
+              alt=" Add To Cart"
+              height="15px"
+              width="15px"
+            />
+            <span>Add to Cart</span>
+          </button>
+        </div>
+      </main>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Marco88-cmd">Marco!</a>.
+    </div>
+  </body>
+</html>
