@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github Repository [Github Repostory](https://github.com/Marco88-cmd/product-preview-card-FEM)
+- Live Site URL: [Add live site URL here](https://product-preview-card-fem-ochre.vercel.app/)
 
 ## My process
 
@@ -50,6 +50,5 @@ In this Frontend Mentor challenge, overall I practiced responsive design, and Fl
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Marco88-cmd](https://www.frontendmentor.io/profile/Marco88-cmd)
+- Github - [@Marco88-cmd](https://github.com/Marco88-cmd)
